@@ -7,6 +7,7 @@
         <module>mainmodule</module>
         <module>food</module>
         <module>history</module>
+        <module>user</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

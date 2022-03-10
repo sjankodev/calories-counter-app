@@ -24,7 +24,7 @@ public class FoodServiceImpl implements FoodService {
 
     @Override
     public FoodDto findById(String categoryId) {
-        return foodRepository.findById(categoryId).orElseThrow(() -> new NoSuchElementException("CategoryService.foodDto.notFound"));
+        return foodRepository.findById(categoryId).orElseThrow(() -> new NoSuchElementException("Food ID not found"));
     }
 
     @Override
